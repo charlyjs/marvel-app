@@ -1,2 +1,8 @@
-# pokedex
-App creada con react, que muestra una lista de pokemons
+# Marvel
+App que muestra los personajes de Marvel
+
+### Técnologías utilizadas
+* Vite
+* React
+* Zustand - Manejo de estado
+* Tanstack - Manejo de datos
