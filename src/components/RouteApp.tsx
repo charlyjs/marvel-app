@@ -5,7 +5,7 @@ import Layout from './Layout.tsx';
 
 // Pages
 import Character from '../pages/Character.tsx';
-import ErrorPageNoFound from '../pages/ErrorPageNoFound.tsx';
+import ErrorNoFound from '../pages/ErrorNoFound.tsx';
 
 export default function RouteApp() {
 
@@ -15,7 +15,7 @@ export default function RouteApp() {
         <Route path='/' element={<Layout />}>
           <Route index element={<Character />}></Route>
           <Route path='/character/:id' element={<Character />}></Route>
-          <Route path='*' element={<ErrorPageNoFound />} />
+          <Route path='*' element={<ErrorNoFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
